@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Module Manager</h1>
+        <form id="module-form">
+            <input type="text" id="module-name" placeholder="Module Name" required>
+            <button type="submit">Add Module</button>
+        </form>
+        <form id="resource-form">
+            <input type="text" id="resource-name" placeholder="Resource Name" required>
+            <button type="submit">Add Resource</button>
+        </form>
+        <form id="link-form">
+            <input type="text" id="link-name" placeholder="Link Name" required>
+            <input type="url" id="link-url" placeholder="Link URL" required>
+            <button type="submit">Add Link</button>
+        </form>
+        <div class="lists">
+            <div id="module-list" class="list">
+                <h2>Modules</h2>
+            </div>
+            <div id="resource-list" class="list">
+                <h2>Resources</h2>
+            </div>
+            <div id="link-list" class="list">
+                <h2>Links</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
